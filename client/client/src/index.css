@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+  font-family:Outfit ;
+}
