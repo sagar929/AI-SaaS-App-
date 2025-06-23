@@ -6,7 +6,7 @@ import { createContext } from "react";
 export const AppContext = createContext();
 
 const AppContextProvider = (props)=>{
-    const [user,setUser] =  useState(true);
+    const [user,setUser] =  useState(false);
 
     const value ={
         user,setUser
