@@ -6,7 +6,7 @@ const userRoter = express.Router()
 
 userRoter.post('/register',registerUser)
 userRoter.post('/login',loginUser)
-userRoter.post('/credits',authUser,userCredits)
+userRoter.get('/credits',authUser,userCredits)
 
 export default userRoter;
 
